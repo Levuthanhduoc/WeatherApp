@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WeatherApp</title>
+</head>
+<body>
+    <div class="here"></div>
+    <div id="form-box">
+        <form>
+            <label for="location">You country</label>
+            <select name="country" id="location">
+                <option value="hanoi">Hanoi - Viet Nam</option>
+                <option value="london">London - England </option>
+            </select>
+            <button id="confirm-button">confirm</button>
+        </form>
+        <div id="wait" class="hide">please Wait ...</div>
+        <div id="report" class="hide">
+            <img id="weather-img" src="" alt="weather">
+            <div id="weather-temp"></div>
+            <div id="weather-status" ></div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

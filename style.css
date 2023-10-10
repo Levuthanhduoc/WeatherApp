@@ -1,0 +1,9 @@
+.hide {
+    opacity: 0%;
+}
+#report.show{
+    background-color: rgb(99, 164, 224);
+    padding: 10px;
+    height: 150px;
+    width: 250px;
+}
